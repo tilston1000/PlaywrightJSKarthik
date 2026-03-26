@@ -1,0 +1,811 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - link "Skip to footer content" [ref=e4] [cursor=pointer]:
+      - /url: "#footercontent"
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - alert [ref=e8]:
+          - paragraph [ref=e11]:
+            - strong [ref=e12]:
+              - link "Hop to it! Order by the end of day today for home delivery by Easter 🐰" [ref=e13] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/easter
+          - button "Close" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: close
+        - generic [ref=e17]:
+          - link "The Warehouse" [ref=e18] [cursor=pointer]:
+            - /url: /
+            - img "The Warehouse" [ref=e19]
+          - navigation [ref=e20]:
+            - menu [ref=e21]:
+              - button "Categories" [ref=e22] [cursor=pointer]:
+                - text: Categories
+                - img [ref=e23]
+          - generic [ref=e25]:
+            - link "Help" [ref=e27] [cursor=pointer]:
+              - /url: https://help.thewarehouse.co.nz/Help/s
+              - img [ref=e28]
+              - generic [ref=e30]: Help
+            - link "Stores" [ref=e32] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/stores
+              - img [ref=e33]
+              - generic [ref=e35]: Stores
+            - link "Wishlist" [ref=e37] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/wishlist
+              - img [ref=e38]
+              - generic [ref=e40]: Wishlist
+            - button "Sign in" [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+              - generic [ref=e46]: Sign in
+            - link "Cart 0" [ref=e49] [cursor=pointer]:
+              - /url: /cart
+              - img [ref=e50]
+              - generic [ref=e52]: Cart
+              - generic [ref=e53]: "0"
+          - search [ref=e57]:
+            - generic [ref=e58]:
+              - img [ref=e61]
+              - textbox "Enter Keyword or Item No." [ref=e63]:
+                - /placeholder: I’m looking for…
+              - generic "Clear" [ref=e65]
+    - generic [ref=e70]:
+      - link "The Warehouse App Download our app" [ref=e71] [cursor=pointer]:
+        - /url: https://thewarehouse.onelink.me/IuKd/genericTWLAppLink
+        - img "The Warehouse App" [ref=e72]
+        - paragraph [ref=e73]: Download our app
+      - link "MarketClub Members Save More" [ref=e75] [cursor=pointer]:
+        - /url: /c/marketclub
+        - img "MarketClub" [ref=e76]
+        - paragraph [ref=e77]: Members Save More
+      - link "ZIP Own it now. Pay later." [ref=e79] [cursor=pointer]:
+        - /url: https://www.thewarehouse.co.nz/zip.html
+        - img "ZIP" [ref=e80]
+        - paragraph [ref=e81]: Own it now. Pay later.
+      - link "Afterpay Shop now. Pay later." [ref=e83] [cursor=pointer]:
+        - /url: https://www.thewarehouse.co.nz/afterpay
+        - img "Afterpay" [ref=e84]
+        - paragraph [ref=e85]: Shop now. Pay later.
+  - generic [ref=e86]:
+    - main [ref=e87]:
+      - generic [ref=e88]:
+        - navigation "breadcrumb" [ref=e90]:
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "Home" [ref=e93] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e94]:
+              - text: /
+              - link "Home, Garden & Appliances" [ref=e95] [cursor=pointer]:
+                - /url: /c/home-garden-appliances
+        - heading "Lounge Suites" [level=1] [ref=e97]
+        - paragraph [ref=e102]: Looking to upgrade your living area? Our fantastic selection of lounge suites includes comfy couches and stylish lounge chairs that will elevate any space. With great deals available, it’s an ideal time to refresh your home! For great deals on lounge suites, shop online or in-store today at The Warehouse!
+        - generic [ref=e103]:
+          - generic [ref=e109]:
+            - link "[ \"Sofa & Armchairs\" ] Sofa & Armchairs" [ref=e111] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/furniture/lounge
+              - generic [ref=e113]: "[ \"Sofa & Armchairs\" ]"
+              - generic [ref=e114]: Sofa & Armchairs
+            - link "[ \"Cushions-Throws\" ] Cushions & Throws" [ref=e116] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/homewares/cushions-throws/throws
+              - generic [ref=e118]: "[ \"Cushions-Throws\" ]"
+              - generic [ref=e119]: Cushions & Throws
+            - link "[ \"Rugs\" ] Rugs" [ref=e121] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/homewares/rugs-mats
+              - generic [ref=e123]: "[ \"Rugs\" ]"
+              - generic [ref=e124]: Rugs
+            - link "[ \"Coffee & Side Tables\" ] Coffee & Side Tables" [ref=e126] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/furniture/lounge/coffee-tables-entertainment-units
+              - generic [ref=e128]: "[ \"Coffee & Side Tables\" ]"
+              - generic [ref=e129]: Coffee & Side Tables
+          - generic [ref=e135]:
+            - link "[ \"Entertainment-Units\" ] Entertainment Units" [ref=e137] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/furniture/lounge/coffee-tables-entertainment-units
+              - generic [ref=e139]: "[ \"Entertainment-Units\" ]"
+              - generic [ref=e140]: Entertainment Units
+            - link "[ \"Decor & Accessories\" ] Decor & Accessories" [ref=e142] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/homewares/home-accessories-d%C3%A9cor
+              - generic [ref=e144]: "[ \"Decor & Accessories\" ]"
+              - generic [ref=e145]: Decor & Accessories
+            - link "[ \"Ottomans\" ] Ottomans" [ref=e147] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/furniture/lounge/ottomans-footrests
+              - generic [ref=e149]: "[ \"Ottomans\" ]"
+              - generic [ref=e150]: Ottomans
+            - link "[ \"Lighting\" ] Lighting" [ref=e152] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/home-appliances/lighting-lamps
+              - generic [ref=e154]: "[ \"Lighting\" ]"
+              - generic [ref=e155]: Lighting
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - link "Reset filters" [ref=e162] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e163]
+            - text: Reset filters
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - heading "Category" [level=6] [ref=e168] [cursor=pointer]
+              - list [ref=e170]:
+                - listitem [ref=e171]:
+                  - link "Home, Garden & Appliances" [ref=e172] [cursor=pointer]:
+                    - /url: /c/home-garden-appliances
+                    - img [ref=e173]
+                    - text: Home, Garden & Appliances
+                - listitem [ref=e175]:
+                  - 'link "Currently refined by Category: Lounge" [ref=e176] [cursor=pointer]':
+                    - /url: /c/home-garden-appliances/lounge
+                    - generic [ref=e177]: "Currently refined by Category:"
+                    - text: Lounge
+                  - list [ref=e178]:
+                    - listitem [ref=e179]:
+                      - 'link "Refine by null: Sofas & Armchairs" [ref=e180] [cursor=pointer]':
+                        - /url: /c/home-garden-appliances/lounge/sofas-armchairs
+                        - generic [ref=e181]: "Refine by null:"
+                        - text: Sofas & Armchairs
+                    - listitem [ref=e182]:
+                      - 'link "Refine by null: Coffee & Side Tables" [ref=e183] [cursor=pointer]':
+                        - /url: /c/home-garden-appliances/lounge/coffee-side-tables
+                        - generic [ref=e184]: "Refine by null:"
+                        - text: Coffee & Side Tables
+                    - listitem [ref=e185]:
+                      - 'link "Refine by null: Entertainment Units" [ref=e186] [cursor=pointer]':
+                        - /url: /c/home-garden-appliances/lounge/entertainment-units
+                        - generic [ref=e187]: "Refine by null:"
+                        - text: Entertainment Units
+                    - listitem [ref=e188]:
+                      - 'link "Refine by null: Ottomans & Footrests" [ref=e189] [cursor=pointer]':
+                        - /url: /c/home-garden-appliances/lounge/ottomans-footrests
+                        - generic [ref=e190]: "Refine by null:"
+                        - text: Ottomans & Footrests
+                    - listitem [ref=e191]:
+                      - 'link "Refine by null: Cushions & Throws" [ref=e192] [cursor=pointer]':
+                        - /url: /c/home-garden-appliances/lounge/cushions-throws
+                        - generic [ref=e193]: "Refine by null:"
+                        - text: Cushions & Throws
+                    - listitem [ref=e194]:
+                      - 'link "Refine by null: Rugs" [ref=e195] [cursor=pointer]':
+                        - /url: /c/home-garden-appliances/lounge/rugs
+                        - generic [ref=e196]: "Refine by null:"
+                        - text: Rugs
+                    - listitem [ref=e197]:
+                      - 'link "Refine by null: Décor & Accessories" [ref=e198] [cursor=pointer]':
+                        - /url: /c/home-garden-appliances/lounge/d%C3%A9cor-accessories
+                        - generic [ref=e199]: "Refine by null:"
+                        - text: Décor & Accessories
+            - generic [ref=e200]:
+              - heading "Sold By" [level=6] [ref=e202] [cursor=pointer]
+              - list [ref=e204]:
+                - listitem [ref=e205]:
+                  - 'button "Refine by Sold By: The Warehouse (204)" [ref=e206] [cursor=pointer]':
+                    - generic [ref=e207]: "Refine by Sold By:"
+                    - text: The Warehouse (204)
+            - heading "Product Type" [level=6] [ref=e210] [cursor=pointer]
+            - heading "Size" [level=6] [ref=e213] [cursor=pointer]
+            - heading "Price" [level=6] [ref=e216] [cursor=pointer]
+            - heading "Colour" [level=6] [ref=e219] [cursor=pointer]
+            - heading "New - On Promotion" [level=6] [ref=e222] [cursor=pointer]
+            - heading "Specials" [level=6] [ref=e225] [cursor=pointer]
+            - heading "Sales Channel" [level=6] [ref=e228] [cursor=pointer]
+            - heading "Clearance" [level=6] [ref=e231] [cursor=pointer]
+            - heading "Brand" [level=6] [ref=e234] [cursor=pointer]
+            - heading "Sustainability" [level=6] [ref=e237] [cursor=pointer]
+            - heading "Rating" [level=6] [ref=e240] [cursor=pointer]
+            - heading "Official Merchandise" [level=6] [ref=e243] [cursor=pointer]
+            - heading "Season" [level=6] [ref=e246] [cursor=pointer]
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - generic [ref=e250]: Sort by
+              - combobox "Sort By" [ref=e252]:
+                - option "Best Match" [selected]
+                - option "Product Name A - Z"
+                - option "Product Name Z - A"
+                - option "Price Low To High"
+                - option "Price High to Low"
+                - option "Top Rated"
+                - option "New Arrivals"
+                - option "Best Sellers"
+            - paragraph [ref=e254]: 1 – 32 of 204 products
+          - generic [ref=e255]:
+            - generic [ref=e256]:
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - link "Living & Co Jackson Entertainment Unit 2 Drawer" [ref=e260] [cursor=pointer]:
+                    - /url: /p/living-co-jackson-entertainment-unit-2-drawer/R2816060.html
+                    - img "Living & Co Jackson Entertainment Unit 2 Drawer" [ref=e261]
+                  - generic [ref=e262]:
+                    - generic [ref=e263]:
+                      - generic [ref=e265]: $199.00
+                      - generic "Add to wishlist" [ref=e266] [cursor=pointer]
+                    - link "Living & Co Jackson Entertainment Unit 2 Drawer" [ref=e267] [cursor=pointer]:
+                      - /url: /p/living-co-jackson-entertainment-unit-2-drawer/R2816060.html
+                    - generic [ref=e270]: "Product rating: 4.0"
+                    - generic [ref=e271]:
+                      - generic [ref=e272]: whatshot
+                      - generic [ref=e273]: Popular
+                - generic [ref=e275]:
+                  - link "Living & Co Metal Folding Side Table Wood Look" [ref=e277] [cursor=pointer]:
+                    - /url: /p/living-co-metal-folding-side-table-wood-look/R2499071.html
+                    - img "Living & Co Metal Folding Side Table Wood Look" [ref=e278]
+                  - generic [ref=e279]:
+                    - generic [ref=e280]:
+                      - generic [ref=e282]: $29.00
+                      - generic "Add to wishlist" [ref=e283] [cursor=pointer]
+                    - link "Living & Co Metal Folding Side Table Wood Look" [ref=e284] [cursor=pointer]:
+                      - /url: /p/living-co-metal-folding-side-table-wood-look/R2499071.html
+                    - generic [ref=e287]: "Product rating: 4.7"
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: whatshot
+                      - generic [ref=e290]: Popular
+                - generic [ref=e291]:
+                  - link "Living & Co Wire Side Table White" [ref=e293] [cursor=pointer]:
+                    - /url: /p/living-co-wire-side-table-white/R2094326.html
+                    - img "Living & Co Wire Side Table White" [ref=e294]
+                  - generic [ref=e295]:
+                    - generic [ref=e296]:
+                      - generic [ref=e298]: $39.00
+                      - generic "Add to wishlist" [ref=e299] [cursor=pointer]
+                    - link "Living & Co Wire Side Table White" [ref=e300] [cursor=pointer]:
+                      - /url: /p/living-co-wire-side-table-white/R2094326.html
+                    - generic [ref=e303]: "Product rating: 4.7"
+                - generic [ref=e305]:
+                  - link "Living & Co Folding Storage Ottoman Double" [ref=e307] [cursor=pointer]:
+                    - /url: /p/living-co-folding-storage-ottoman-double/R2579044.html
+                    - img "Living & Co Folding Storage Ottoman Double" [ref=e308]
+                  - generic [ref=e309]:
+                    - generic [ref=e310]:
+                      - generic [ref=e312]: $49.00
+                      - generic "Add to wishlist" [ref=e313] [cursor=pointer]
+                    - link "Living & Co Folding Storage Ottoman Double" [ref=e314] [cursor=pointer]:
+                      - /url: /p/living-co-folding-storage-ottoman-double/R2579044.html
+                    - generic [ref=e317]: "Product rating: 4.1"
+                    - generic [ref=e318]:
+                      - generic [ref=e319]: whatshot
+                      - generic [ref=e320]: Popular
+                - generic [ref=e322]:
+                  - link "Living & Co Homestead Entertainment Unit" [ref=e324] [cursor=pointer]:
+                    - /url: /p/living-co-homestead-entertainment-unit/R2670236.html
+                    - img "Living & Co Homestead Entertainment Unit" [ref=e325]
+                  - generic [ref=e326]:
+                    - generic [ref=e327]:
+                      - generic [ref=e329]: $269.00
+                      - generic "Add to wishlist" [ref=e330] [cursor=pointer]
+                    - link "Living & Co Homestead Entertainment Unit" [ref=e331] [cursor=pointer]:
+                      - /url: /p/living-co-homestead-entertainment-unit/R2670236.html
+                    - generic [ref=e334]: "Product rating: 4.7"
+                    - generic [ref=e335]:
+                      - generic [ref=e336]: whatshot
+                      - generic [ref=e337]: Popular
+                - generic [ref=e338]:
+                  - link "Living & Co Wire Side Table Wood Look Black" [ref=e340] [cursor=pointer]:
+                    - /url: /p/living-co-wire-side-table-wood-look-black/R2528516.html
+                    - img "Living & Co Wire Side Table Wood Look Black" [ref=e341]
+                  - generic [ref=e342]:
+                    - generic [ref=e343]:
+                      - generic [ref=e345]: $39.00
+                      - generic "Add to wishlist" [ref=e346] [cursor=pointer]
+                    - link "Living & Co Wire Side Table Wood Look Black" [ref=e347] [cursor=pointer]:
+                      - /url: /p/living-co-wire-side-table-wood-look-black/R2528516.html
+                    - generic [ref=e350]: "Product rating: 4.6"
+                    - generic [ref=e351]:
+                      - generic [ref=e352]: whatshot
+                      - generic [ref=e353]: Popular
+                - generic [ref=e355]:
+                  - link "Living & Co Cotton/Foam Chair Pad with Handle Grey Mid 40cm x 40cm" [ref=e357] [cursor=pointer]:
+                    - /url: /p/living-co-cottonfoam-chair-pad-with-handle-grey-mid-40cm-x-40cm/RM110148393-1M.html
+                    - img "Living & Co Cotton/Foam Chair Pad with Handle Grey Mid 40cm x 40cm" [ref=e358]
+                  - generic [ref=e359]:
+                    - generic [ref=e360]:
+                      - generic [ref=e362]: $6.98
+                      - generic "Add to wishlist" [ref=e363] [cursor=pointer]
+                    - link "Living & Co Cotton/Foam Chair Pad with Handle Grey Mid 40cm x 40cm" [ref=e364] [cursor=pointer]:
+                      - /url: /p/living-co-cottonfoam-chair-pad-with-handle-grey-mid-40cm-x-40cm/RM110148393-1M.html
+                    - generic [ref=e367]: "Product rating: 4.7"
+                - generic [ref=e369]:
+                  - link "Living & Co Rug Assorted 60cm x 120cm" [ref=e371] [cursor=pointer]:
+                    - /url: /p/living-co-rug-assorted-60cm-x-120cm/RM110154060-1M.html
+                    - img "Living & Co Rug Assorted 60cm x 120cm" [ref=e372]
+                  - generic [ref=e373]:
+                    - generic [ref=e374]:
+                      - generic [ref=e376]: $25.00
+                      - generic "Add to wishlist" [ref=e377] [cursor=pointer]
+                    - link "Living & Co Rug Assorted 60cm x 120cm" [ref=e378] [cursor=pointer]:
+                      - /url: /p/living-co-rug-assorted-60cm-x-120cm/RM110154060-1M.html
+                    - generic [ref=e381]: "Product rating: 3.0"
+                - generic [ref=e382]:
+                  - link "Living & Co Turner Storage Bench Grey" [ref=e384] [cursor=pointer]:
+                    - /url: /p/living-co-turner-storage-bench-grey/R2633166.html
+                    - img "Living & Co Turner Storage Bench Grey" [ref=e385]
+                  - generic [ref=e386]:
+                    - generic [ref=e387]:
+                      - generic [ref=e389]: $239.00
+                      - generic "Add to wishlist" [ref=e390] [cursor=pointer]
+                    - link "Living & Co Turner Storage Bench Grey" [ref=e391] [cursor=pointer]:
+                      - /url: /p/living-co-turner-storage-bench-grey/R2633166.html
+                    - generic [ref=e394]: "Product rating: 4.8"
+                - generic [ref=e396]:
+                  - link "Living & Co Folding Storage Ottoman Grey Dark Single" [ref=e398] [cursor=pointer]:
+                    - /url: /p/living-co-folding-storage-ottoman-grey-dark-single/R2579045.html
+                    - img "Living & Co Folding Storage Ottoman Grey Dark Single" [ref=e399]
+                  - generic [ref=e400]:
+                    - generic [ref=e401]:
+                      - generic [ref=e403]: $29.00
+                      - generic "Add to wishlist" [ref=e404] [cursor=pointer]
+                    - link "Living & Co Folding Storage Ottoman Grey Dark Single" [ref=e405] [cursor=pointer]:
+                      - /url: /p/living-co-folding-storage-ottoman-grey-dark-single/R2579045.html
+                    - generic [ref=e408]: "Product rating: 4.2"
+                    - generic [ref=e409]:
+                      - generic [ref=e410]: whatshot
+                      - generic [ref=e411]: Popular
+                - generic [ref=e413]:
+                  - link "Living & Co Domestic Rug Colours Assorted 60cm x 90cm" [ref=e415] [cursor=pointer]:
+                    - /url: /p/living-co-domestic-rug-colours-assorted-60cm-x-90cm/RM110154059-1M.html
+                    - img "Living & Co Domestic Rug Colours Assorted 60cm x 90cm" [ref=e416]
+                  - generic [ref=e417]:
+                    - generic [ref=e418]:
+                      - generic [ref=e420]: $20.00
+                      - generic "Add to wishlist" [ref=e421] [cursor=pointer]
+                    - link "Living & Co Domestic Rug Colours Assorted 60cm x 90cm" [ref=e422] [cursor=pointer]:
+                      - /url: /p/living-co-domestic-rug-colours-assorted-60cm-x-90cm/RM110154059-1M.html
+                    - generic [ref=e425]: "Product rating: 4.8"
+                - generic [ref=e426]:
+                  - link "Living & Co Ava Boucle Chair Cream" [ref=e428] [cursor=pointer]:
+                    - /url: /p/living-co-ava-boucle-chair-cream/R2954420.html
+                    - img "Living & Co Ava Boucle Chair Cream" [ref=e429]
+                  - generic [ref=e430]:
+                    - generic [ref=e431]:
+                      - generic [ref=e433]: $199.00
+                      - generic "Add to wishlist" [ref=e434] [cursor=pointer]
+                    - link "Living & Co Ava Boucle Chair Cream" [ref=e435] [cursor=pointer]:
+                      - /url: /p/living-co-ava-boucle-chair-cream/R2954420.html
+                    - generic [ref=e438]: "Product rating: 5.0"
+                    - generic [ref=e439]:
+                      - generic [ref=e440]: whatshot
+                      - generic [ref=e441]: Popular
+                - generic [ref=e443]:
+                  - link "Living & Co Roma Entertainment Unit Natural" [ref=e445] [cursor=pointer]:
+                    - /url: /p/living-co-roma-entertainment-unit-natural/R2922208.html
+                    - img "Living & Co Roma Entertainment Unit Natural" [ref=e446]
+                  - generic [ref=e447]:
+                    - generic [ref=e448]:
+                      - generic [ref=e450]: $149.00
+                      - generic "Add to wishlist" [ref=e451] [cursor=pointer]
+                    - link "Living & Co Roma Entertainment Unit Natural" [ref=e452] [cursor=pointer]:
+                      - /url: /p/living-co-roma-entertainment-unit-natural/R2922208.html
+                    - generic [ref=e455]: "Product rating: 5.0"
+                    - generic [ref=e456]:
+                      - generic [ref=e457]: whatshot
+                      - generic [ref=e458]: Popular
+                - generic [ref=e460]:
+                  - link "Living & Co Milan 2.5 Seater Sofa" [ref=e462] [cursor=pointer]:
+                    - /url: /p/living-co-milan-2.5-seater-sofa/R2906279.html
+                    - img "Living & Co Milan 2.5 Seater Sofa" [ref=e463]
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - generic [ref=e467]: $599.00
+                      - generic "Add to wishlist" [ref=e468] [cursor=pointer]
+                    - link "Living & Co Milan 2.5 Seater Sofa" [ref=e469] [cursor=pointer]:
+                      - /url: /p/living-co-milan-2.5-seater-sofa/R2906279.html
+                    - generic [ref=e472]: "Product rating: 2.3"
+                    - generic [ref=e473]:
+                      - generic [ref=e474]: whatshot
+                      - generic [ref=e475]: Popular
+                - generic [ref=e476]:
+                  - link "Living & Co Roma Coffee Table Natural" [ref=e478] [cursor=pointer]:
+                    - /url: /p/living-co-roma-coffee-table-natural/R2922207.html
+                    - img "Living & Co Roma Coffee Table Natural" [ref=e479]
+                  - generic [ref=e480]:
+                    - generic [ref=e481]:
+                      - generic [ref=e483]: $99.00
+                      - generic "Add to wishlist" [ref=e484] [cursor=pointer]
+                    - link "Living & Co Roma Coffee Table Natural" [ref=e485] [cursor=pointer]:
+                      - /url: /p/living-co-roma-coffee-table-natural/R2922207.html
+                    - generic [ref=e488]: "Product rating: 4.8"
+                    - generic [ref=e489]:
+                      - generic [ref=e490]: whatshot
+                      - generic [ref=e491]: Popular
+                - generic [ref=e493]:
+                  - link "Living & Co Lift Up Recliner Magnet Grey Light" [ref=e495] [cursor=pointer]:
+                    - /url: /p/living-co-lift-up-recliner-magnet-grey-light/R2901352.html
+                    - img "Living & Co Lift Up Recliner Magnet Grey Light" [ref=e496]
+                  - generic [ref=e497]:
+                    - generic [ref=e498]:
+                      - generic [ref=e500]: $659.00
+                      - generic "Add to wishlist" [ref=e501] [cursor=pointer]
+                    - link "Living & Co Lift Up Recliner Magnet Grey Light" [ref=e502] [cursor=pointer]:
+                      - /url: /p/living-co-lift-up-recliner-magnet-grey-light/R2901352.html
+                    - generic [ref=e505]: "Product rating: 4.5"
+                    - generic [ref=e506]:
+                      - generic [ref=e507]: whatshot
+                      - generic [ref=e508]: Popular
+                - generic [ref=e510]:
+                  - link "Living & Co Bronte Sofa Bed Grey" [ref=e512] [cursor=pointer]:
+                    - /url: /p/living-co-bronte-sofa-bed-grey/R2952517.html
+                    - img "Living & Co Bronte Sofa Bed Grey" [ref=e513]
+                  - generic [ref=e514]:
+                    - generic [ref=e515]:
+                      - generic [ref=e517]: $1,199.00
+                      - generic "Add to wishlist" [ref=e518] [cursor=pointer]
+                    - link "Living & Co Bronte Sofa Bed Grey" [ref=e519] [cursor=pointer]:
+                      - /url: /p/living-co-bronte-sofa-bed-grey/R2952517.html
+                    - generic [ref=e522]: "Product rating: 5.0"
+                    - generic [ref=e523]:
+                      - generic [ref=e524]: whatshot
+                      - generic [ref=e525]: Popular
+                - generic [ref=e526]:
+                  - link "Living & Co Cushion Check Multi-Coloured 30cm x 50cm" [ref=e528] [cursor=pointer]:
+                    - /url: /p/living-co-cushion-check-multi-coloured-30cm-x-50cm/R3035437.html
+                    - img "Living & Co Cushion Check Multi-Coloured 30cm x 50cm" [ref=e529]
+                  - generic [ref=e530]:
+                    - generic [ref=e531]:
+                      - generic [ref=e533]: $12.00
+                      - generic "Add to wishlist" [ref=e534] [cursor=pointer]
+                    - link "Living & Co Cushion Check Multi-Coloured 30cm x 50cm" [ref=e535] [cursor=pointer]:
+                      - /url: /p/living-co-cushion-check-multi-coloured-30cm-x-50cm/R3035437.html
+                - generic [ref=e537]:
+                  - link "Living & Co Delphine Corner Sofa Ultimate Grey" [ref=e539] [cursor=pointer]:
+                    - /url: /p/living-co-delphine-corner-sofa-ultimate-grey/R2901353.html
+                    - img "Living & Co Delphine Corner Sofa Ultimate Grey" [ref=e540]
+                  - generic [ref=e541]:
+                    - generic [ref=e542]:
+                      - generic [ref=e544]: $1,499.00
+                      - generic "Add to wishlist" [ref=e545] [cursor=pointer]
+                    - link "Living & Co Delphine Corner Sofa Ultimate Grey" [ref=e546] [cursor=pointer]:
+                      - /url: /p/living-co-delphine-corner-sofa-ultimate-grey/R2901353.html
+                    - generic [ref=e549]: "Product rating: 5.0"
+                    - generic [ref=e550]:
+                      - generic [ref=e551]: whatshot
+                      - generic [ref=e552]: Popular
+                - generic [ref=e554]:
+                  - generic [ref=e555]:
+                    - generic:
+                      - link "Living & Co Jute Rug Natural 180cm" [ref=e556] [cursor=pointer]:
+                        - /url: /p/living-co-jute-rug-natural-180cm/R2989403.html
+                        - img "Living & Co Jute Rug Natural 180cm" [ref=e557]
+                      - generic:
+                        - generic:
+                          - generic: Find in-store
+                  - generic [ref=e558]:
+                    - generic [ref=e559]:
+                      - generic [ref=e561]: $69.00
+                      - generic "Add to wishlist" [ref=e562] [cursor=pointer]
+                    - link "Living & Co Jute Rug Natural 180cm" [ref=e563] [cursor=pointer]:
+                      - /url: /p/living-co-jute-rug-natural-180cm/R2989403.html
+                    - generic [ref=e566]: "Product rating: 5.0"
+                - generic [ref=e567]:
+                  - link "Living & Co Cushion Linen Rich Brown Mid 50cm x 50cm" [ref=e569] [cursor=pointer]:
+                    - /url: /p/living-co-cushion-linen-rich-brown-mid-50cm-x-50cm/R3035450.html
+                    - img "Living & Co Cushion Linen Rich Brown Mid 50cm x 50cm" [ref=e570]
+                  - generic [ref=e571]:
+                    - generic [ref=e572]:
+                      - generic [ref=e574]: $16.00
+                      - generic "Add to wishlist" [ref=e575] [cursor=pointer]
+                    - link "Living & Co Cushion Linen Rich Brown Mid 50cm x 50cm" [ref=e576] [cursor=pointer]:
+                      - /url: /p/living-co-cushion-linen-rich-brown-mid-50cm-x-50cm/R3035450.html
+                - generic [ref=e578]:
+                  - link "Living & Co Cushion Luna 42 x 42cm Blue" [ref=e580] [cursor=pointer]:
+                    - /url: /p/living-co-cushion-luna-42-x-42cm-blue/R2989602.html
+                    - img "Living & Co Cushion Luna 42 x 42cm Blue" [ref=e581]
+                  - generic [ref=e582]:
+                    - generic [ref=e583]:
+                      - generic [ref=e585]: $5.00
+                      - generic "Add to wishlist" [ref=e586] [cursor=pointer]
+                    - link "Living & Co Cushion Luna 42 x 42cm Blue" [ref=e587] [cursor=pointer]:
+                      - /url: /p/living-co-cushion-luna-42-x-42cm-blue/R2989602.html
+                - generic [ref=e589]:
+                  - link "Living & Co Tahoe Entertainment Unit 120cm White White" [ref=e591] [cursor=pointer]:
+                    - /url: /p/living-co-tahoe-entertainment-unit-120cm-white-white/R2923909.html
+                    - img "Living & Co Tahoe Entertainment Unit 120cm White White" [ref=e592]
+                  - generic [ref=e593]:
+                    - generic [ref=e594]:
+                      - generic [ref=e596]: $149.00
+                      - generic "Add to wishlist" [ref=e597] [cursor=pointer]
+                    - link "Living & Co Tahoe Entertainment Unit 120cm White White" [ref=e598] [cursor=pointer]:
+                      - /url: /p/living-co-tahoe-entertainment-unit-120cm-white-white/R2923909.html
+                    - generic [ref=e601]: "Product rating: 3.5"
+                    - generic [ref=e602]:
+                      - generic [ref=e603]: whatshot
+                      - generic [ref=e604]: Popular
+                - generic [ref=e605]:
+                  - link "Living & Co Room Divider Screen 3 Panel" [ref=e607] [cursor=pointer]:
+                    - /url: /p/living-co-room-divider-screen-3-panel/R2913030.html
+                    - img "Living & Co Room Divider Screen 3 Panel" [ref=e608]
+                  - generic [ref=e609]:
+                    - generic [ref=e610]:
+                      - generic [ref=e612]: $119.00
+                      - generic "Add to wishlist" [ref=e613] [cursor=pointer]
+                    - link "Living & Co Room Divider Screen 3 Panel" [ref=e614] [cursor=pointer]:
+                      - /url: /p/living-co-room-divider-screen-3-panel/R2913030.html
+                - generic [ref=e616]:
+                  - link "Barbie Decorative Cushion Multi-Coloured" [ref=e618] [cursor=pointer]:
+                    - /url: /p/barbie-decorative-cushion-multi-coloured/R3018024.html
+                    - img "Barbie Decorative Cushion Multi-Coloured" [ref=e619]
+                  - generic [ref=e620]:
+                    - generic [ref=e621]:
+                      - generic [ref=e623]: $20.00
+                      - generic "Add to wishlist" [ref=e624] [cursor=pointer]
+                    - link "Barbie Decorative Cushion Multi-Coloured" [ref=e625] [cursor=pointer]:
+                      - /url: /p/barbie-decorative-cushion-multi-coloured/R3018024.html
+                - generic [ref=e627]:
+                  - link "Living & Co Chicago Small Rug Charcoal 70 x 140cm" [ref=e629] [cursor=pointer]:
+                    - /url: /p/living-co-chicago-small-rug-charcoal-70-x-140cm/R2956019.html
+                    - img "Living & Co Chicago Small Rug Charcoal 70 x 140cm" [ref=e630]
+                  - generic [ref=e631]:
+                    - generic [ref=e632]:
+                      - generic [ref=e633]:
+                        - paragraph [ref=e634]: NOW
+                        - generic [ref=e635]: $27.30
+                        - paragraph [ref=e636]: Save $11.70
+                      - generic "Add to wishlist" [ref=e637] [cursor=pointer]
+                    - link "Living & Co Chicago Small Rug Charcoal 70 x 140cm" [ref=e638] [cursor=pointer]:
+                      - /url: /p/living-co-chicago-small-rug-charcoal-70-x-140cm/R2956019.html
+                - generic [ref=e639]:
+                  - link "Living & Co Malta Buffet Unit Black" [ref=e641] [cursor=pointer]:
+                    - /url: /p/living-co-malta-buffet-unit-black/R2924895.html
+                    - img "Living & Co Malta Buffet Unit Black" [ref=e642]
+                  - generic [ref=e643]:
+                    - generic [ref=e644]:
+                      - generic [ref=e646]: $199.00
+                      - generic "Add to wishlist" [ref=e647] [cursor=pointer]
+                    - link "Living & Co Malta Buffet Unit Black" [ref=e648] [cursor=pointer]:
+                      - /url: /p/living-co-malta-buffet-unit-black/R2924895.html
+                    - generic [ref=e651]: "Product rating: 5.0"
+                - generic [ref=e653]:
+                  - link "Living & Co Ezra Rope Entertainment Unit Black" [ref=e655] [cursor=pointer]:
+                    - /url: /p/living-co-ezra-rope-entertainment-unit-black/R3000164.html
+                    - img "Living & Co Ezra Rope Entertainment Unit Black" [ref=e656]
+                  - generic [ref=e657]:
+                    - generic [ref=e658]:
+                      - generic [ref=e660]: $99.00
+                      - generic "Add to wishlist" [ref=e661] [cursor=pointer]
+                    - link "Living & Co Ezra Rope Entertainment Unit Black" [ref=e662] [cursor=pointer]:
+                      - /url: /p/living-co-ezra-rope-entertainment-unit-black/R3000164.html
+                    - generic [ref=e665]: "Product rating: 4.3"
+                    - generic [ref=e666]:
+                      - generic [ref=e667]: whatshot
+                      - generic [ref=e668]: Popular
+                - generic [ref=e670]:
+                  - link "Living & Co Anti-slip Underlay for Rug Charcoal 110 x 170cm" [ref=e672] [cursor=pointer]:
+                    - /url: /p/living-co-anti-slip-underlay-for-rug-charcoal-110-x-170cm/R2989270.html
+                    - img "Living & Co Anti-slip Underlay for Rug Charcoal 110 x 170cm" [ref=e673]
+                  - generic [ref=e674]:
+                    - generic [ref=e675]:
+                      - generic [ref=e676]:
+                        - paragraph [ref=e677]: NOW
+                        - generic [ref=e678]: $10.00
+                        - paragraph [ref=e679]: Save $9.00
+                      - generic "Add to wishlist" [ref=e680] [cursor=pointer]
+                    - link "Living & Co Anti-slip Underlay for Rug Charcoal 110 x 170cm" [ref=e681] [cursor=pointer]:
+                      - /url: /p/living-co-anti-slip-underlay-for-rug-charcoal-110-x-170cm/R2989270.html
+                - generic [ref=e682]:
+                  - link "Living & Co Cushion Paloma Grey 45cm x 45cm" [ref=e684] [cursor=pointer]:
+                    - /url: /p/living-co-cushion-paloma-grey-45cm-x-45cm/R2987706.html
+                    - img "Living & Co Cushion Paloma Grey 45cm x 45cm" [ref=e685]
+                  - generic [ref=e686]:
+                    - generic [ref=e687]:
+                      - generic [ref=e689]: $9.98
+                      - generic "Add to wishlist" [ref=e690] [cursor=pointer]
+                    - link "Living & Co Cushion Paloma Grey 45cm x 45cm" [ref=e691] [cursor=pointer]:
+                      - /url: /p/living-co-cushion-paloma-grey-45cm-x-45cm/R2987706.html
+                - generic [ref=e693]:
+                  - link "Living & Co Allegra Cord Ottoman Green" [ref=e695] [cursor=pointer]:
+                    - /url: /p/living-co-allegra-cord-ottoman-green/R3039650.html
+                    - img "Living & Co Allegra Cord Ottoman Green" [ref=e696]
+                  - generic [ref=e697]:
+                    - generic [ref=e698]:
+                      - generic [ref=e700]: $49.00
+                      - generic "Add to wishlist" [ref=e701] [cursor=pointer]
+                    - link "Living & Co Allegra Cord Ottoman Green" [ref=e702] [cursor=pointer]:
+                      - /url: /p/living-co-allegra-cord-ottoman-green/R3039650.html
+                    - generic [ref=e703]:
+                      - generic [ref=e704]: whatshot
+                      - generic [ref=e705]: Popular
+                - generic [ref=e707]:
+                  - link "Living & Co Cushion 2 Pack Yellow 43cm x 43cm" [ref=e709] [cursor=pointer]:
+                    - /url: /p/living-co-cushion-2-pack-yellow-43cm-x-43cm/R3015839.html
+                    - img "Living & Co Cushion 2 Pack Yellow 43cm x 43cm" [ref=e710]
+                  - generic [ref=e711]:
+                    - generic [ref=e712]:
+                      - generic [ref=e714]: $20.00
+                      - generic "Add to wishlist" [ref=e715] [cursor=pointer]
+                    - link "Living & Co Cushion 2 Pack Yellow 43cm x 43cm" [ref=e716] [cursor=pointer]:
+                      - /url: /p/living-co-cushion-2-pack-yellow-43cm-x-43cm/R3015839.html
+              - list [ref=e720]:
+                - listitem [ref=e721]:
+                  - button "1" [disabled]
+                - listitem [ref=e722]:
+                  - button "2" [ref=e723] [cursor=pointer]
+                - listitem [ref=e724]:
+                  - button "3" [ref=e725] [cursor=pointer]
+                - listitem [ref=e726]:
+                  - button "4" [ref=e727] [cursor=pointer]
+                - listitem [ref=e728]:
+                  - button "5" [ref=e729] [cursor=pointer]
+                - listitem [ref=e730]:
+                  - button "6" [ref=e731] [cursor=pointer]
+                - listitem [ref=e732]:
+                  - button "7" [ref=e733] [cursor=pointer]
+                - listitem [ref=e734]:
+                  - button [ref=e735] [cursor=pointer]:
+                    - img [ref=e736]
+            - group "Found what you are looking for?" [ref=e740]:
+              - generic [ref=e741]: Found what you are looking for?
+              - generic [ref=e742]:
+                - button "Yes" [ref=e743] [cursor=pointer]
+                - button "No" [ref=e744] [cursor=pointer]
+      - paragraph [ref=e754]: Create a welcoming and comfortable lounge with our curated selection of furniture and décor. Whether you’re relaxing with family or entertaining guests, our range offers style, comfort, and practicality for every living space. Discover how easy it is to refresh your lounge today.
+    - contentinfo [ref=e755]:
+      - generic [ref=e758]:
+        - paragraph [ref=e760]:
+          - link "Sign up to save!" [ref=e761] [cursor=pointer]:
+            - /url: /login
+          - text: Get all the latest deals straight to your inbox
+        - generic [ref=e764]:
+          - textbox "Your email address" [ref=e766]
+          - button "Sign up" [ref=e767] [cursor=pointer]
+      - generic [ref=e768]:
+        - generic [ref=e769]:
+          - generic [ref=e770]:
+            - generic [ref=e771]:
+              - heading "Your order" [level=6]
+              - list [ref=e773]:
+                - listitem [ref=e774]:
+                  - link "Track order" [ref=e775] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/account/order-history
+                - listitem [ref=e776]:
+                  - link "Delivery" [ref=e777] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/topic/0TO0K000000NZJxWAO/delivery
+                - listitem [ref=e778]:
+                  - link "Click & Collect" [ref=e779] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/click-collect
+                - listitem [ref=e780]:
+                  - link "Online returns" [ref=e781] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Returns-Policy-and-Money-Back-Guarantee
+            - generic [ref=e782]:
+              - heading "Security & payment" [level=6]
+              - list [ref=e784]:
+                - listitem [ref=e785]:
+                  - link "Security & payment" [ref=e786] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Security
+                - listitem [ref=e787]:
+                  - link "Privacy" [ref=e788] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Group-Privacy-Statement
+                - listitem [ref=e789]:
+                  - link "Terms & conditions" [ref=e790] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Terms-and-conditions
+                - listitem [ref=e791]:
+                  - link "Purple Visa Card" [ref=e792] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Applying-for-Finance-with-Purple-Visa-Card
+                - listitem [ref=e793]:
+                  - link "Warehouse Insurance" [ref=e794] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/warehouse-insurance
+                - listitem [ref=e795]:
+                  - link "Applying for finance" [ref=e796] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/applying-for-finance
+                - listitem [ref=e797]:
+                  - link "Protection Plans" [ref=e798] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/protection-plans
+            - generic [ref=e799]:
+              - heading "Stores" [level=6]
+              - list [ref=e801]:
+                - listitem [ref=e802]:
+                  - link "Store finder" [ref=e803] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/stores
+                - listitem [ref=e804]:
+                  - link "Competitions" [ref=e805] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/competitions
+                - listitem [ref=e806]:
+                  - link "Store defibrillators" [ref=e807] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/AED-store-locations
+                - listitem [ref=e808]:
+                  - link "Store returns" [ref=e809] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Returns-Policy-and-Money-Back-Guarantee
+                - listitem [ref=e810]:
+                  - link "Marketplace FAQ" [ref=e811] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/marketplace-id
+            - generic [ref=e812]:
+              - heading "Customer service" [level=6]
+              - list [ref=e814]:
+                - listitem [ref=e815]:
+                  - link "FAQs" [ref=e816] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/
+                - listitem [ref=e817]:
+                  - link "Price promise" [ref=e818] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Price-promise
+                - listitem [ref=e819]:
+                  - link "Consumer Guarantees Act" [ref=e820] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Consumer-Guarantees-Act-CGA-Your-Rights
+                - listitem [ref=e821]:
+                  - link "Contact us" [ref=e822] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/contactsupport
+                - listitem [ref=e823]:
+                  - link "Everyday low prices" [ref=e824] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/everyday-low-prices
+                - listitem [ref=e825]:
+                  - link "Product recalls" [ref=e826] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Product-recalls
+                - listitem [ref=e827]:
+                  - link "Electric vehicle chargers" [ref=e828] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Electric-vehicle-charging
+                - listitem [ref=e829]:
+                  - link "Blog" [ref=e830] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/blog
+                - listitem [ref=e831]:
+                  - link "3G Network Closure" [ref=e832] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/3g-network-closure
+            - generic [ref=e833]:
+              - heading "Corporate" [level=6]
+              - list [ref=e835]:
+                - listitem [ref=e836]:
+                  - link "The Warehouse Group" [ref=e837] [cursor=pointer]:
+                    - /url: https://www.thewarehousegroup.co.nz/
+                - listitem [ref=e838]:
+                  - link "Investor centre" [ref=e839] [cursor=pointer]:
+                    - /url: https://www.thewarehousegroup.co.nz/investor-centre/
+                - listitem [ref=e840]:
+                  - link "Here for good" [ref=e841] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/here-for-good
+                - listitem [ref=e842]:
+                  - link "Media centre" [ref=e843] [cursor=pointer]:
+                    - /url: https://www.thewarehousegroup.co.nz/media-centre/
+                - listitem [ref=e844]:
+                  - link "Suppliers" [ref=e845] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/suppliers
+                - listitem [ref=e846]:
+                  - link "Careers" [ref=e847] [cursor=pointer]:
+                    - /url: https://www.thewarehousecareers.co.nz/home
+          - generic [ref=e848]:
+            - heading "Social Media" [level=6] [ref=e849]
+            - list [ref=e850]:
+              - listitem [ref=e851]:
+                - link "Instagram" [ref=e852] [cursor=pointer]:
+                  - /url: https://www.instagram.com/thewarehousenz/
+                  - img "Instagram" [ref=e853]
+              - listitem [ref=e854]:
+                - link "LinkedIn" [ref=e855] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/the-warehouse-ltd
+                  - img "LinkedIn" [ref=e856]
+              - listitem [ref=e857]:
+                - link "Facebook" [ref=e858] [cursor=pointer]:
+                  - /url: https://www.facebook.com/TheWarehouseNZ
+                  - img "Facebook" [ref=e859]
+              - listitem [ref=e860]:
+                - link "shielded" [ref=e861] [cursor=pointer]:
+                  - /url: "#"
+                  - img "shielded" [ref=e862]
+        - generic [ref=e863]:
+          - heading "Our family of Kiwi brands" [level=6] [ref=e864]
+          - list [ref=e865]:
+            - listitem [ref=e866]:
+              - link "Warehouse Stationery" [ref=e867] [cursor=pointer]:
+                - /url: https://www.warehousestationery.co.nz/?utm_source=www.thewarehouse.co.nz&utm_medium=footer&utm_campaign=homepage
+                - img "Warehouse Stationery" [ref=e868]
+            - listitem [ref=e869]:
+              - link "Noel Leeming" [ref=e870] [cursor=pointer]:
+                - /url: https://www.noelleeming.co.nz/?utm_source=www.thewarehouse.co.nz&utm_medium=footer&utm_campaign=homepage
+                - img "Noel Leeming" [ref=e871]
+      - generic [ref=e872]:
+        - heading "We accept" [level=6] [ref=e873]
+        - list [ref=e874]:
+          - listitem [ref=e875]:
+            - img "Visa" [ref=e876]
+          - listitem [ref=e877]:
+            - img "American Express" [ref=e878]
+          - listitem [ref=e879]:
+            - img "MasterCard" [ref=e880]
+          - listitem [ref=e881]:
+            - img "Q Card" [ref=e882]
+          - listitem [ref=e883]:
+            - img "Purple Visa" [ref=e884]
+          - listitem [ref=e885]:
+            - img "ZIP" [ref=e886]
+          - listitem [ref=e887]:
+            - img "Click to Pay" [ref=e888]
+          - listitem [ref=e889]:
+            - img "Afterpay" [ref=e890]
+      - paragraph [ref=e892]: © Copyright The Warehouse Limited 2026
+  - button "Hello, have a question? Let’s chat." [ref=e893] [cursor=pointer]:
+    - img [ref=e895]
+```
