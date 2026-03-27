@@ -38,7 +38,7 @@ jobs:
           path: gh-pages
       
       - name: Test marketplace action
-        uses: simple-elf/allure-report-action@v1.13
+        uses: simple-elf/allure-report-action@master
         if: always()
         id: allure-report
         with:
