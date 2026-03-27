@@ -39,7 +39,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: merged-reports-as-blob # name of the file you want to have once its uploaded
+          name: merged-reports-as-blob-${{ strategy.job-index }} # name of the file you want to have once its uploaded
           path: blob-report # path where the reports are, from where to take the files.
           retention-days: 90
 
@@ -62,7 +62,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
       - name: Install dependencies
         run: npm ci
 
@@ -70,7 +70,7 @@ jobs:
       - name: Download blob reports from GitHub Actions Artifacts
         uses: actions/download-artifact@v4
         with:
-          name: merged-reports-as-blob # name of the file stored as artifact (as uploaded at the previous job)
+          name: merged-reports-as-blob-${{ strategy.job-index }} # name of the file stored as artifact (as uploaded at the previous job)
           path: downloaded-merged-reports-as-blob # name of the folder where the download will be saved
 
       # Playwright will generate a report and store it inside a folder called '/playwright-report'
