@@ -36,7 +36,7 @@ jobs:
 
       - uses: actions/upload-artifact@master
         with:
-          name: allure-results
+          name: allure-results-${{ github.run_attempt }}
           path: allure-results
 
       - name: Get Allure history
