@@ -31,7 +31,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test --shard=${{ matrix.shardIndex }}
+        run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
         continue-on-error: true
 
       # Once playwright finishes it will create a folder called 'blob-report' where it will put all the reports
