@@ -15,6 +15,7 @@ export default defineConfig({
     ['list'],
     ['json', { outputFile: 'report.json' }],
     ['allure-playwright'],
+    ['blob'],
   ],
   use: {
     baseURL: 'https://www.thewarehouse.co.nz/',

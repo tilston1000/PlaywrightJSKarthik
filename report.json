@@ -18,7 +18,7 @@
       {
         "outputDir": "C:/source/Training/Playwright/UdemyEndtoEndTestAutomationWithPlaywright/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 2,
         "metadata": {
           "actualWorkers": 1
         },
@@ -34,7 +34,7 @@
       {
         "outputDir": "C:/source/Training/Playwright/UdemyEndtoEndTestAutomationWithPlaywright/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 2,
         "metadata": {
           "actualWorkers": 1
         },
@@ -67,6 +67,10 @@
       [
         "C:\\source\\Training\\Playwright\\UdemyEndtoEndTestAutomationWithPlaywright\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
         null
+      ],
+      [
+        "blob",
+        null
       ]
     ],
     "reportSlowTests": {
@@ -74,12 +78,15 @@
       "threshold": 300000
     },
     "runAgents": "none",
-    "shard": null,
+    "shard": {
+      "current": 3,
+      "total": 4
+    },
     "tags": [],
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.58.2",
-    "workers": 1,
+    "workers": 8,
     "webServer": null
   },
   "suites": [
@@ -97,37 +104,63 @@
           "column": 6,
           "specs": [
             {
-              "title": "Navigating to Lounge of Warehouse site-ARIA locators",
+              "title": "To Navigate to Car Electronics page",
               "ok": true,
               "tags": [],
               "tests": [
                 {
                   "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "The browser does not support the feature",
+                      "location": {
+                        "file": "C:\\source\\Training\\Playwright\\UdemyEndtoEndTestAutomationWithPlaywright\\tests\\warehousebdd.spec.ts",
+                        "line": 54,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4772,
+                      "status": "skipped",
+                      "duration": 6044,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T07:17:34.531Z",
-                      "annotations": [],
-                      "attachments": []
+                      "startTime": "2026-03-27T22:05:00.499Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "The browser does not support the feature",
+                          "location": {
+                            "file": "C:\\source\\Training\\Playwright\\UdemyEndtoEndTestAutomationWithPlaywright\\tests\\warehousebdd.spec.ts",
+                            "line": 54,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\source\\Training\\Playwright\\UdemyEndtoEndTestAutomationWithPlaywright\\test-results\\warehousebdd-Test-navigati-02c1f-ate-to-Car-Electronics-page-webkit\\video.webm"
+                        }
+                      ]
                     }
                   ],
-                  "status": "expected"
+                  "status": "skipped"
                 }
               ],
-              "id": "9d0168471b437e6a60cd-0095474cf9942a81468f",
+              "id": "9d0168471b437e6a60cd-169283a26a4841766a03",
               "file": "warehousebdd.spec.ts",
-              "line": 81,
+              "line": 53,
               "column": 3
             }
           ]
@@ -137,10 +170,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-26T07:17:31.965Z",
-    "duration": 7460.783000000003,
-    "expected": 1,
-    "skipped": 0,
+    "startTime": "2026-03-27T22:04:59.189Z",
+    "duration": 7528.779,
+    "expected": 0,
+    "skipped": 1,
     "unexpected": 0,
     "flaky": 0
   }
