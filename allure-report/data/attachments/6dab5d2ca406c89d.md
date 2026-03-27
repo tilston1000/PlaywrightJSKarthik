@@ -1,0 +1,777 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - link "Skip to footer content" [ref=e4] [cursor=pointer]:
+      - /url: "#footercontent"
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - alert [ref=e8]:
+          - paragraph [ref=e11]:
+            - strong [ref=e12]:
+              - link "Hop to it! Order by the end of day today for home delivery by Easter 🐰" [ref=e13] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/easter
+          - button "Close" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: close
+        - generic [ref=e17]:
+          - link "The Warehouse" [ref=e18] [cursor=pointer]:
+            - /url: /
+            - img "The Warehouse" [ref=e19]
+          - navigation [ref=e20]:
+            - menu [ref=e21]:
+              - button "Categories" [ref=e22] [cursor=pointer]:
+                - text: Categories
+                - img [ref=e23]
+          - generic [ref=e25]:
+            - link "Help" [ref=e27] [cursor=pointer]:
+              - /url: https://help.thewarehouse.co.nz/Help/s
+              - img [ref=e28]
+              - generic [ref=e30]: Help
+            - link "Stores" [ref=e32] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/stores
+              - img [ref=e33]
+              - generic [ref=e35]: Stores
+            - link "Wishlist" [ref=e37] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/wishlist
+              - img [ref=e38]
+              - generic [ref=e40]: Wishlist
+            - button "Sign in" [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+              - generic [ref=e46]: Sign in
+            - link "Cart 0" [ref=e49] [cursor=pointer]:
+              - /url: /cart
+              - img [ref=e50]
+              - generic [ref=e52]: Cart
+              - generic [ref=e53]: "0"
+          - search [ref=e57]:
+            - generic [ref=e58]:
+              - img [ref=e61]
+              - textbox "Enter Keyword or Item No." [ref=e63]:
+                - /placeholder: I’m looking for…
+              - generic "Clear" [ref=e65]
+    - generic [ref=e66]:
+      - generic [ref=e70]:
+        - paragraph [ref=e71]: "Popular:"
+        - generic [ref=e72]:
+          - link "Easter" [ref=e74] [cursor=pointer]:
+            - /url: https://www.thewarehouse.co.nz/c/easter
+          - link "Home, Garden & Appliances" [ref=e76] [cursor=pointer]:
+            - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances
+          - link "Clothing, Shoes & Accessories" [ref=e78] [cursor=pointer]:
+            - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories
+          - link "Baby & Toddler" [ref=e80] [cursor=pointer]:
+            - /url: https://www.thewarehouse.co.nz/c/toys-baby/baby-toddler
+          - link "Food & Drink" [ref=e82] [cursor=pointer]:
+            - /url: https://www.thewarehouse.co.nz/c/food-pets-household/food-drink
+          - link "Toys" [ref=e84] [cursor=pointer]:
+            - /url: https://www.thewarehouse.co.nz/c/toys-baby/toys
+      - generic [ref=e88]:
+        - link "The Warehouse App Download our app" [ref=e89] [cursor=pointer]:
+          - /url: https://thewarehouse.onelink.me/IuKd/genericTWLAppLink
+          - img "The Warehouse App" [ref=e90]
+          - paragraph [ref=e91]: Download our app
+        - link "MarketClub Members Save More" [ref=e93] [cursor=pointer]:
+          - /url: /c/marketclub
+          - img "MarketClub" [ref=e94]
+          - paragraph [ref=e95]: Members Save More
+        - link "ZIP Own it now. Pay later." [ref=e97] [cursor=pointer]:
+          - /url: https://www.thewarehouse.co.nz/zip.html
+          - img "ZIP" [ref=e98]
+          - paragraph [ref=e99]: Own it now. Pay later.
+        - link "Afterpay Shop now. Pay later." [ref=e101] [cursor=pointer]:
+          - /url: https://www.thewarehouse.co.nz/afterpay
+          - img "Afterpay" [ref=e102]
+          - paragraph [ref=e103]: Shop now. Pay later.
+  - generic [ref=e104]:
+    - main [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - generic:
+                - group "1 / 3" [ref=e115]:
+                  - link "Easter" [ref=e117] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/c/easter
+                    - img "Easter" [ref=e119]
+                - group "2 / 3" [ref=e120]:
+                  - link "New season footwear" [ref=e122] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/womens-clothing-shoes/womens-shoes
+                    - img "New season footwear" [ref=e124]
+                - group "3 / 3" [ref=e125]:
+                  - link "New Season home" [ref=e127] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances
+                    - img "New Season home" [ref=e129]
+            - button "Previous slide" [ref=e130] [cursor=pointer]
+            - button "Next slide" [ref=e131] [cursor=pointer]
+            - generic [ref=e132]:
+              - button "Go to slide 1" [ref=e133] [cursor=pointer]
+              - button "Go to slide 2" [ref=e134] [cursor=pointer]
+              - button "Go to slide 3" [ref=e135] [cursor=pointer]
+          - generic [ref=e139]:
+            - heading "Featured categories" [level=3] [ref=e141]
+            - generic [ref=e144]:
+              - link "Pet Month" [ref=e146] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/food-pets-household/pet-care
+                - generic [ref=e149]: Pet Month
+              - link "Toys" [ref=e151] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/toys-baby/toys
+                - generic [ref=e154]: Toys
+              - link "Electronics & Gaming" [ref=e156] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/electronics-gaming
+                - generic [ref=e159]: Electronics & Gaming
+              - link "Women's Clothing" [ref=e161] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/womens-clothing-shoes
+                - generic [ref=e164]: Women's Clothing
+              - link "Men's Clothing" [ref=e166] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/mens-clothing-shoes
+                - generic [ref=e169]: Men's Clothing
+              - link "Kids' Clothing" [ref=e171] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/kids-clothing-shoes
+                - generic [ref=e174]: Kids' Clothing
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - heading "Top offers" [level=2] [ref=e179]
+              - link "Shop all offers →" [ref=e180] [cursor=pointer]:
+                - /url: "#"
+            - button "‹" [ref=e181] [cursor=pointer]
+            - button "›" [ref=e182] [cursor=pointer]
+            - generic [ref=e183]:
+              - link "McoBeauty 30% off**Excludes clearance McoBeauty" [ref=e184] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/health-beauty/makeup/mcobeauty?pmid=twl-discountedProducts
+                - img "McoBeauty" [ref=e186]
+                - generic [ref=e187]:
+                  - generic [ref=e188]: 30% off**Excludes clearance
+                  - generic [ref=e189]: McoBeauty
+              - link "TV Deals NOW $498 TV Deals" [ref=e190] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/electronics-gaming/tvs-accessories/televisions?pmid=twl-discountedProducts
+                - img "TV Deals" [ref=e192]
+                - generic [ref=e193]:
+                  - generic [ref=e194]: NOW $498
+                  - generic [ref=e195]: TV Deals
+              - link "OPPO A5 Pro 5G NOW $399 eachSAVE $100 OPPO A5 Pro 5G" [ref=e196] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/electronics-gaming/phones/mobile-phones?pmid=twl-discountedProducts&prefn1=brand&prefv1=OPPO
+                - img "OPPO A5 Pro 5G" [ref=e198]
+                - generic [ref=e199]:
+                  - generic [ref=e200]: NOW $399 eachSAVE $100
+                  - generic [ref=e201]: OPPO A5 Pro 5G
+              - link "Xbox controllers FROM $85 Xbox controllers" [ref=e202] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/electronics-gaming/gaming/xbox-series-x?pmid=twl-discountedProducts
+                - img "Xbox controllers" [ref=e204]
+                - generic [ref=e205]:
+                  - generic [ref=e206]: FROM $85
+                  - generic [ref=e207]: Xbox controllers
+              - link "L'Oreal Skincare 25% off**Excluding Wrinkle Expert, Age Expert L'Oreal Skincare" [ref=e208] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/health-beauty/loreal?pmid=twl-discountedProducts
+                - img "L'Oreal Skincare" [ref=e210]
+                - generic [ref=e211]:
+                  - generic [ref=e212]: 25% off**Excluding Wrinkle Expert, Age Expert
+                  - generic [ref=e213]: L'Oreal Skincare
+              - link "Candles & home fragrance Buy 1 get 1 HALF PRICE**Excludes clearance Candles & home fragrance" [ref=e214] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/promotion?pmid=37345-8
+                - img "Candles & home fragrance" [ref=e216]
+                - generic [ref=e217]:
+                  - generic [ref=e218]: Buy 1 get 1 HALF PRICE**Excludes clearance
+                  - generic [ref=e219]: Candles & home fragrance
+              - link "Jigsaw puzzles 25% Off**Excludes Clearance & Play Studio Jigsaw puzzles" [ref=e220] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/c/toys-baby/toys/games-puzzles?prefn1=subclassCode&prefv1=Kids%27%20Puzzles%7CAdult%20Games%20%26%20Puzzles&pmid=twl-discountedProducts
+                - img "Jigsaw puzzles" [ref=e222]
+                - generic [ref=e223]:
+                  - generic [ref=e224]: 25% Off**Excludes Clearance & Play Studio
+                  - generic [ref=e225]: Jigsaw puzzles
+              - link "Little Tikes Story Dream Machine NOW $79Save $50 Little Tikes Story Dream Machine" [ref=e226] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/p/little-tikes-story-dream-machine/R2913726.html
+                - img "Little Tikes Story Dream Machine" [ref=e228]
+                - generic [ref=e229]:
+                  - generic [ref=e230]: NOW $79Save $50
+                  - generic [ref=e231]: Little Tikes Story Dream Machine
+              - link "Living & Co knives & chopping boards Buy 1 get 1 HALF PRICE**Excludes clearance Living & Co knives & chopping boards" [ref=e232] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/promotion?pmid=37345-9001
+                - img "Living & Co knives & chopping boards" [ref=e234]
+                - generic [ref=e235]:
+                  - generic [ref=e236]: Buy 1 get 1 HALF PRICE**Excludes clearance
+                  - generic [ref=e237]: Living & Co knives & chopping boards
+              - link "Edapt, GE & Living & Co lightbulbs Buy 1 get 1 HALF PRICE**Excludes clearance & already discounted items Edapt, GE & Living & Co lightbulbs" [ref=e238] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/promotion?pmid=37345-10
+                - img "Edapt, GE & Living & Co lightbulbs" [ref=e240]
+                - generic [ref=e241]:
+                  - generic [ref=e242]: Buy 1 get 1 HALF PRICE**Excludes clearance & already discounted items
+                  - generic [ref=e243]: Edapt, GE & Living & Co lightbulbs
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - generic:
+                - group "1 / 2" [ref=e254]:
+                  - link "Glen Jones Luggage" [ref=e256] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/promotion?pmid=twl-glenn-jones-suitcases
+                    - img "Glen Jones Luggage" [ref=e258]
+                - group "2 / 2" [ref=e259]:
+                  - link "Switch 2 Pokemon" [ref=e261] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/c/electronics-gaming/gaming/nintendo/nintendo-switch-2?prefn1=marketplaceItem&prefv1=The%20Warehouse
+                    - img "Switch 2 Pokemon" [ref=e263]
+            - button "Previous slide" [ref=e264] [cursor=pointer]
+            - button "Next slide" [ref=e265] [cursor=pointer]
+            - generic [ref=e266]:
+              - button "Go to slide 1" [ref=e267] [cursor=pointer]
+              - button "Go to slide 2" [ref=e268] [cursor=pointer]
+          - generic [ref=e310]:
+            - heading "Top Brands" [level=3] [ref=e312]
+            - generic [ref=e315]:
+              - generic [ref=e316]:
+                - generic:
+                  - group "1 / 7" [ref=e317]:
+                    - link "H&H" [ref=e319] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/womens-clothing-shoes?prefn1=brand&prefv1=H%26H
+                      - generic [ref=e321]: H&H
+                  - group "2 / 7" [ref=e322]:
+                    - link "Lonsdale" [ref=e324] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories?prefn1=brand&prefv1=Lonsdale
+                      - generic [ref=e326]: Lonsdale
+                  - group "3 / 7" [ref=e327]:
+                    - link "Fila" [ref=e329] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories?prefn1=brand&prefv1=Fila
+                      - generic [ref=e331]: Fila
+                  - group "4 / 7" [ref=e332]:
+                    - link "Love Luna" [ref=e334] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/womens-clothing-shoes?prefn1=brand&prefv1=Love%20Luna
+                      - generic [ref=e336]: Love Luna
+                  - group "5 / 7" [ref=e337]:
+                    - link "Underworks" [ref=e339] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/womens-clothing-shoes?prefn1=brand&prefv1=Underworks
+                      - generic [ref=e341]: Underworks
+                  - group "6 / 7" [ref=e342]:
+                    - link "Tradie" [ref=e344] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/womens-clothing-shoes?prefn1=brand&prefv1=Tradie
+                      - generic [ref=e346]: Tradie
+                  - group "7 / 7" [ref=e347]:
+                    - link "Rio" [ref=e349] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/clothing-shoes-accessories/womens-clothing-shoes?prefn1=brand&prefv1=Rio
+                      - generic [ref=e351]: Rio
+              - button "Previous slide" [ref=e352] [cursor=pointer]
+              - button "Next slide" [ref=e353] [cursor=pointer]
+              - generic [ref=e354]:
+                - button "Go to slide 1" [ref=e355] [cursor=pointer]
+                - button "Go to slide 2" [ref=e356] [cursor=pointer]
+          - generic [ref=e360]:
+            - heading "Marketplace deals" [level=2] [ref=e362]
+            - generic [ref=e365]:
+              - generic [ref=e366]:
+                - generic:
+                  - group "1 / 6" [ref=e367]:
+                    - link "On Sale" [ref=e369] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/marketplace?pmid=twl-discountedProducts&srule=default-navigation&pmin=0
+                      - img "On Sale" [ref=e370]
+                  - group "2 / 6" [ref=e371]:
+                    - link "Zinus New Arrivals Upgrade Today" [ref=e373] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/marketplace/marketplace-new-arrivals
+                      - img "Zinus New Arrivals Upgrade Today" [ref=e374]
+                  - group "3 / 6" [ref=e375]:
+                    - link "Costume King" [ref=e377] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/marketplace/costume-king?pmid=twl-discountedProducts
+                      - img "Costume King" [ref=e378]
+                  - group "4 / 6" [ref=e379]:
+                    - link "Under $999.99 Sofas & Armchairs" [ref=e381] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/home-garden-appliances/furniture/lounge/sofas-armchairs?pmin=100.00&pmax=999.99&prefn1=marketplaceItem&prefv1=Marketplace%20Store&prefn2=subclassCode&prefv2=Sofas%20%26%20Armchairs&srule=default-navigation
+                      - img "Under $999.99 Sofas & Armchairs" [ref=e382]
+                  - group "5 / 6" [ref=e383]:
+                    - link "Under $500 Strength Equipment" [ref=e385] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/sports-outdoors/wellness-fitness/strength-equipment?pmin=0.00&pmax=500.00&prefn1=marketplaceItem&prefv1=Marketplace%20Store&srule=default-navigation
+                      - img "Under $500 Strength Equipment" [ref=e386]
+                  - group "6 / 6" [ref=e387]:
+                    - link "Under $150 PC Accessories" [ref=e389] [cursor=pointer]:
+                      - /url: https://www.thewarehouse.co.nz/c/electronics-gaming/gaming/pc-gaming?pmin=25.00&pmax=150.00&prefn1=marketplaceItem&prefv1=Marketplace+Store&srule=default-navigation
+                      - img "Under $150 PC Accessories" [ref=e390]
+              - button "Previous slide" [ref=e391] [cursor=pointer]
+              - button "Next slide" [ref=e392] [cursor=pointer]
+              - generic [ref=e393]:
+                - button "Go to slide 1" [ref=e394] [cursor=pointer]
+                - button "Go to slide 2" [ref=e395] [cursor=pointer]
+        - generic [ref=e397]:
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - heading "People are searching for" [level=3] [ref=e402]
+              - generic [ref=e410]:
+                - link "search easter eggs" [ref=e412] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/search?q=easter eggs
+                  - generic [ref=e413]:
+                    - generic [ref=e414]: search
+                    - text: easter eggs
+                - link "search tv" [ref=e416] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/search?q=tv
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: search
+                    - text: tv
+                - link "search desk" [ref=e420] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/search?q=desk
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: search
+                    - text: desk
+                - link "search pokemon cards" [ref=e424] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/search?q=pokemon cards
+                  - generic [ref=e425]:
+                    - generic [ref=e426]: search
+                    - text: pokemon cards
+                - link "search pokemon" [ref=e428] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/search?q=pokemon
+                  - generic [ref=e429]:
+                    - generic [ref=e430]: search
+                    - text: pokemon
+                - link "search easter" [ref=e432] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/search?q=easter
+                  - generic [ref=e433]:
+                    - generic [ref=e434]: search
+                    - text: easter
+                - link "search nee doh" [ref=e436] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/search?q=nee doh
+                  - generic [ref=e437]:
+                    - generic [ref=e438]: search
+                    - text: nee doh
+                - link "search easter egg" [ref=e440] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/search?q=easter egg
+                  - generic [ref=e441]:
+                    - generic [ref=e442]: search
+                    - text: easter egg
+            - generic [ref=e445]:
+              - generic [ref=e447]:
+                - link "Sponsored" [ref=e449] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/c/auto-diy/automotive?prefn1=brand&prefv1=Exide
+                  - generic [ref=e451]:
+                    - img [ref=e452]
+                    - text: Sponsored
+                - link "Sponsored" [ref=e455] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/c/food-pets-household/top-brands/meadow-fresh
+                  - generic [ref=e457]:
+                    - img [ref=e458]
+                    - text: Sponsored
+                - link "Sponsored" [ref=e461] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/c/electronics-gaming/phones?prefn1=brand&prefv1=Samsung
+                  - generic [ref=e463]:
+                    - img [ref=e464]
+                    - text: Sponsored
+                - link "Sponsored" [ref=e467] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/c/food-pets-household?prefn1=brand&prefv1=Whiskas
+                  - generic [ref=e469]:
+                    - img [ref=e470]
+                    - text: Sponsored
+                - link "Sponsored" [ref=e473] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/c/auto-diy/automotive?prefn1=brand&prefv1=Exide
+                  - generic [ref=e475]:
+                    - img [ref=e476]
+                    - text: Sponsored
+                - link "Sponsored" [ref=e479] [cursor=pointer]:
+                  - /url: https://www.thewarehouse.co.nz/c/food-pets-household/top-brands/meadow-fresh
+                  - generic [ref=e481]:
+                    - img [ref=e482]
+                    - text: Sponsored
+              - img [ref=e490] [cursor=pointer]
+            - generic [ref=e495]:
+              - generic [ref=e497]: Recommended for you
+              - generic [ref=e499]:
+                - generic [ref=e500]:
+                  - link "PURINA ONE Adult Coat & Hairball Chicken Dry Cat Food Bag 1.4kg NOW $19.99 PURINA ONE Adult Coat & Hairball Chicken Dry Cat Food Bag 1.4kg Add to Cart Sponsored":
+                    - /url: https://www.thewarehouse.co.nz/p/purina-one-adult-coat-hairball-chicken-dry-cat-food-bag-1.4kg/R2806791.html
+                    - generic:
+                      - img "PURINA ONE Adult Coat & Hairball Chicken Dry Cat Food Bag 1.4kg" [ref=e502] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: NOW
+                              - generic: $19.99
+                          - button "Add to wishlist" [ref=e503] [cursor=pointer]
+                        - link "PURINA ONE Adult Coat & Hairball Chicken Dry Cat Food Bag 1.4kg" [ref=e505] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/purina-one-adult-coat-hairball-chicken-dry-cat-food-bag-1.4kg/R2806791.html
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                            - img
+                            - img
+                            - img
+                    - button "Add to Cart" [ref=e506] [cursor=pointer]:
+                      - generic [ref=e507]: Add to Cart
+                    - generic [ref=e508]:
+                      - img [ref=e509]
+                      - text: Sponsored
+                - generic [ref=e511]:
+                  - link "Oscar Agail Favourites Selection 36 x 85 g $33.00 Oscar Agail Favourites Selection 36 x 85 g Add to Cart Sponsored":
+                    - /url: https://www.thewarehouse.co.nz/p/oscar-agail-favourites-selection-36-x-85-g/R2989588.html
+                    - generic:
+                      - img "Oscar Agail Favourites Selection 36 x 85 g" [ref=e513] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $33.00
+                          - button "Add to wishlist" [ref=e514] [cursor=pointer]
+                        - link "Oscar Agail Favourites Selection 36 x 85 g" [ref=e516] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/oscar-agail-favourites-selection-36-x-85-g/R2989588.html
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                            - img
+                            - img
+                            - img
+                    - button "Add to Cart" [ref=e517] [cursor=pointer]:
+                      - generic [ref=e518]: Add to Cart
+                    - generic [ref=e519]:
+                      - img [ref=e520]
+                      - text: Sponsored
+                - generic [ref=e522]:
+                  - link "Nee Doh Nice Cube Assorted $12.00 Nee Doh Nice Cube Assorted Add to Cart":
+                    - /url: https://www.thewarehouse.co.nz/p/nee-doh-nice-cube-assorted/R2907834.html
+                    - generic:
+                      - img "Nee Doh Nice Cube Assorted" [ref=e524] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $12.00
+                          - button "Add to wishlist" [ref=e525] [cursor=pointer]
+                        - link "Nee Doh Nice Cube Assorted" [ref=e527] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/nee-doh-nice-cube-assorted/R2907834.html
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                            - img
+                            - img
+                            - img
+                    - button "Add to Cart" [ref=e528] [cursor=pointer]:
+                      - generic [ref=e529]: Add to Cart
+                - generic [ref=e530]:
+                  - link "Cadbury Creme Mini Eggs 110g NOW $6.65 Cadbury Creme Mini Eggs 110g Add to Cart":
+                    - /url: https://www.thewarehouse.co.nz/p/cadbury-creme-mini-eggs-110g/R2707956.html
+                    - generic:
+                      - img "Cadbury Creme Mini Eggs 110g" [ref=e532] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: NOW
+                              - generic: $6.65
+                          - button "Add to wishlist" [ref=e533] [cursor=pointer]
+                        - link "Cadbury Creme Mini Eggs 110g" [ref=e535] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/cadbury-creme-mini-eggs-110g/R2707956.html
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                            - img
+                            - img
+                            - img
+                    - button "Add to Cart" [ref=e536] [cursor=pointer]:
+                      - generic [ref=e537]: Add to Cart
+                - generic [ref=e538]:
+                  - link "Babywise Baby Wipes Value Pack 80x8 $12.00 Babywise Baby Wipes Value Pack 80x8 Add to Cart":
+                    - /url: https://www.thewarehouse.co.nz/p/babywise-baby-wipes-value-pack-80x8/R2873321.html
+                    - generic:
+                      - img "Babywise Baby Wipes Value Pack 80x8" [ref=e540] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $12.00
+                          - button "Add to wishlist" [ref=e541] [cursor=pointer]
+                        - link "Babywise Baby Wipes Value Pack 80x8" [ref=e543] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/babywise-baby-wipes-value-pack-80x8/R2873321.html
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                            - img
+                            - img
+                            - img
+                    - button "Add to Cart" [ref=e544] [cursor=pointer]:
+                      - generic [ref=e545]: Add to Cart
+                - generic [ref=e546]:
+                  - link "Soft Touch Toilet Tissue White 32 Pack $15.00 Soft Touch Toilet Tissue White 32 Pack Add to Cart":
+                    - /url: https://www.thewarehouse.co.nz/p/soft-touch-toilet-tissue-white-32-pack/R2491028.html
+                    - generic:
+                      - img "Soft Touch Toilet Tissue White 32 Pack" [ref=e548] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $15.00
+                          - button "Add to wishlist" [ref=e549] [cursor=pointer]
+                        - link "Soft Touch Toilet Tissue White 32 Pack" [ref=e551] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/soft-touch-toilet-tissue-white-32-pack/R2491028.html
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                            - img
+                            - img
+                            - img
+                    - button "Add to Cart" [ref=e552] [cursor=pointer]:
+                      - generic [ref=e553]: Add to Cart
+                - generic [ref=e554]:
+                  - link "KiwiSoft Toilet Tissue 2Ply 24 Pack $8.00 KiwiSoft Toilet Tissue 2Ply 24 Pack Add to Cart":
+                    - /url: https://www.thewarehouse.co.nz/p/kiwisoft-toilet-tissue-2ply-24-pack/R2986998.html
+                    - generic:
+                      - img "KiwiSoft Toilet Tissue 2Ply 24 Pack" [ref=e556] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $8.00
+                          - button "Add to wishlist" [ref=e557] [cursor=pointer]
+                        - link "KiwiSoft Toilet Tissue 2Ply 24 Pack" [ref=e559] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/kiwisoft-toilet-tissue-2ply-24-pack/R2986998.html
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                            - img
+                            - img
+                            - img
+                    - button "Add to Cart" [ref=e560] [cursor=pointer]:
+                      - generic [ref=e561]: Add to Cart
+                - generic [ref=e562]:
+                  - link "Kinder Circus Mini Eggs $8.00 Kinder Circus Mini Eggs Add to Cart":
+                    - /url: https://www.thewarehouse.co.nz/p/kinder-circus-mini-eggs/R2398134.html
+                    - generic:
+                      - img "Kinder Circus Mini Eggs" [ref=e564] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $8.00
+                          - button "Add to wishlist" [ref=e565] [cursor=pointer]
+                        - link "Kinder Circus Mini Eggs" [ref=e567] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/kinder-circus-mini-eggs/R2398134.html
+                    - button "Add to Cart" [ref=e568] [cursor=pointer]:
+                      - generic [ref=e569]: Add to Cart
+                - generic [ref=e570]:
+                  - link "Smarties Milk Chocolate Easter Egg 100g NOW $10.40 Smarties Milk Chocolate Easter Egg 100g Add to Cart":
+                    - /url: https://www.thewarehouse.co.nz/p/smarties-milk-chocolate-easter-egg-100g/R3064173.html
+                    - generic:
+                      - img "Smarties Milk Chocolate Easter Egg 100g" [ref=e572] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: NOW
+                              - generic: $10.40
+                          - button "Add to wishlist" [ref=e573] [cursor=pointer]
+                        - link "Smarties Milk Chocolate Easter Egg 100g" [ref=e575] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/smarties-milk-chocolate-easter-egg-100g/R3064173.html
+                    - button "Add to Cart" [ref=e576] [cursor=pointer]:
+                      - generic [ref=e577]: Add to Cart
+                - generic [ref=e578]:
+                  - link "WS Photocopy Paper A4 80gsm 500 Sheet Ream $8.90 WS Photocopy Paper A4 80gsm 500 Sheet Ream Add to Cart":
+                    - /url: https://www.thewarehouse.co.nz/p/ws-photocopy-paper-a4-80gsm-500-sheet-ream/R2216592.html
+                    - generic:
+                      - img "WS Photocopy Paper A4 80gsm 500 Sheet Ream" [ref=e580] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: $8.90
+                          - button "Add to wishlist" [ref=e581] [cursor=pointer]
+                        - link "WS Photocopy Paper A4 80gsm 500 Sheet Ream" [ref=e583] [cursor=pointer]:
+                          - /url: https://www.thewarehouse.co.nz/p/ws-photocopy-paper-a4-80gsm-500-sheet-ream/R2216592.html
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                            - img
+                            - img
+                            - img
+                    - button "Add to Cart" [ref=e584] [cursor=pointer]:
+                      - generic [ref=e585]: Add to Cart
+              - generic:
+                - generic:
+                  - button [ref=e586] [cursor=pointer]:
+                    - img [ref=e587]
+                  - button [ref=e589] [cursor=pointer]:
+                    - img [ref=e590]
+          - generic [ref=e597]:
+            - link "Shop now 1" [ref=e599] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/marketclub
+              - generic [ref=e601]: Shop now 1
+            - link "Shop now 2" [ref=e603] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/here-for-good
+              - generic [ref=e605]: Shop now 2
+            - link "Shop now 3" [ref=e607] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/c/electronics-gaming/phones/mobile-phones/warehouse-mobile
+              - generic [ref=e609]: Shop now 3
+            - link "Shop now 4" [ref=e611] [cursor=pointer]:
+              - /url: https://www.thewarehouse.co.nz/zip.html
+              - generic [ref=e613]: Shop now 4
+          - generic [ref=e622]:
+            - heading "The Warehouse" [level=1] [ref=e623]
+            - paragraph [ref=e624]:
+              - text: "Get great deals every day at The Warehouse. Shop online and browse through our massive range of products, with great deals on Fashion, Homewares, Toys, and so much more. With such a huge range of products available online or in-store, we are sure to have everything you need at the lowest prices. Whether you are looking to pick up plates, pots, or other homeware, rock the latest fashions, or are even just buying toys for the kids or the kids at heart, The Warehouse will have what you need. We are New Zealand’s biggest one-stop-shop for great products at low prices. Look no further than The Warehouse: where everyone gets a bargain! You can also use our"
+              - link "App" [ref=e625] [cursor=pointer]:
+                - /url: https://www.thewarehouse.co.nz/customer-service/mobile-app.html
+              - text: .
+    - contentinfo [ref=e626]:
+      - generic [ref=e629]:
+        - paragraph [ref=e631]:
+          - link "Sign up to save!" [ref=e632] [cursor=pointer]:
+            - /url: /login
+          - text: Get all the latest deals straight to your inbox
+        - generic [ref=e635]:
+          - textbox "Your email address" [ref=e637]
+          - button "Sign up" [ref=e638] [cursor=pointer]
+      - generic [ref=e639]:
+        - generic [ref=e640]:
+          - generic [ref=e641]:
+            - generic [ref=e642]:
+              - heading "Your order" [level=6]
+              - list [ref=e644]:
+                - listitem [ref=e645]:
+                  - link "Track order" [ref=e646] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/account/order-history
+                - listitem [ref=e647]:
+                  - link "Delivery" [ref=e648] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/topic/0TO0K000000NZJxWAO/delivery
+                - listitem [ref=e649]:
+                  - link "Click & Collect" [ref=e650] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/click-collect
+                - listitem [ref=e651]:
+                  - link "Online returns" [ref=e652] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Returns-Policy-and-Money-Back-Guarantee
+            - generic [ref=e653]:
+              - heading "Security & payment" [level=6]
+              - list [ref=e655]:
+                - listitem [ref=e656]:
+                  - link "Security & payment" [ref=e657] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Security
+                - listitem [ref=e658]:
+                  - link "Privacy" [ref=e659] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Group-Privacy-Statement
+                - listitem [ref=e660]:
+                  - link "Terms & conditions" [ref=e661] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Terms-and-conditions
+                - listitem [ref=e662]:
+                  - link "Purple Visa Card" [ref=e663] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Applying-for-Finance-with-Purple-Visa-Card
+                - listitem [ref=e664]:
+                  - link "Warehouse Insurance" [ref=e665] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/warehouse-insurance
+                - listitem [ref=e666]:
+                  - link "Applying for finance" [ref=e667] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/applying-for-finance
+                - listitem [ref=e668]:
+                  - link "Protection Plans" [ref=e669] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/protection-plans
+            - generic [ref=e670]:
+              - heading "Stores" [level=6]
+              - list [ref=e672]:
+                - listitem [ref=e673]:
+                  - link "Store finder" [ref=e674] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/stores
+                - listitem [ref=e675]:
+                  - link "Competitions" [ref=e676] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/competitions
+                - listitem [ref=e677]:
+                  - link "Store defibrillators" [ref=e678] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/AED-store-locations
+                - listitem [ref=e679]:
+                  - link "Store returns" [ref=e680] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Returns-Policy-and-Money-Back-Guarantee
+                - listitem [ref=e681]:
+                  - link "Marketplace FAQ" [ref=e682] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/marketplace-id
+            - generic [ref=e683]:
+              - heading "Customer service" [level=6]
+              - list [ref=e685]:
+                - listitem [ref=e686]:
+                  - link "FAQs" [ref=e687] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/
+                - listitem [ref=e688]:
+                  - link "Price promise" [ref=e689] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Price-promise
+                - listitem [ref=e690]:
+                  - link "Consumer Guarantees Act" [ref=e691] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Consumer-Guarantees-Act-CGA-Your-Rights
+                - listitem [ref=e692]:
+                  - link "Contact us" [ref=e693] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/contactsupport
+                - listitem [ref=e694]:
+                  - link "Everyday low prices" [ref=e695] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/everyday-low-prices
+                - listitem [ref=e696]:
+                  - link "Product recalls" [ref=e697] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Product-recalls
+                - listitem [ref=e698]:
+                  - link "Electric vehicle chargers" [ref=e699] [cursor=pointer]:
+                    - /url: https://help.thewarehouse.co.nz/Help/s/article/Electric-vehicle-charging
+                - listitem [ref=e700]:
+                  - link "Blog" [ref=e701] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/blog
+                - listitem [ref=e702]:
+                  - link "3G Network Closure" [ref=e703] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/3g-network-closure
+            - generic [ref=e704]:
+              - heading "Corporate" [level=6]
+              - list [ref=e706]:
+                - listitem [ref=e707]:
+                  - link "The Warehouse Group" [ref=e708] [cursor=pointer]:
+                    - /url: https://www.thewarehousegroup.co.nz/
+                - listitem [ref=e709]:
+                  - link "Investor centre" [ref=e710] [cursor=pointer]:
+                    - /url: https://www.thewarehousegroup.co.nz/investor-centre/
+                - listitem [ref=e711]:
+                  - link "Here for good" [ref=e712] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/here-for-good
+                - listitem [ref=e713]:
+                  - link "Media centre" [ref=e714] [cursor=pointer]:
+                    - /url: https://www.thewarehousegroup.co.nz/media-centre/
+                - listitem [ref=e715]:
+                  - link "Suppliers" [ref=e716] [cursor=pointer]:
+                    - /url: https://www.thewarehouse.co.nz/suppliers
+                - listitem [ref=e717]:
+                  - link "Careers" [ref=e718] [cursor=pointer]:
+                    - /url: https://www.thewarehousecareers.co.nz/home
+          - generic [ref=e719]:
+            - heading "Social Media" [level=6] [ref=e720]
+            - list [ref=e721]:
+              - listitem [ref=e722]:
+                - link "Instagram" [ref=e723] [cursor=pointer]:
+                  - /url: https://www.instagram.com/thewarehousenz/
+                  - img "Instagram" [ref=e724]
+              - listitem [ref=e725]:
+                - link "LinkedIn" [ref=e726] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/the-warehouse-ltd
+                  - img "LinkedIn" [ref=e727]
+              - listitem [ref=e728]:
+                - link "Facebook" [ref=e729] [cursor=pointer]:
+                  - /url: https://www.facebook.com/TheWarehouseNZ
+                  - img "Facebook" [ref=e730]
+              - listitem [ref=e731]:
+                - link "shielded" [ref=e732] [cursor=pointer]:
+                  - /url: "#"
+                  - img "shielded" [ref=e733]
+        - generic [ref=e734]:
+          - heading "Our family of Kiwi brands" [level=6] [ref=e735]
+          - list [ref=e736]:
+            - listitem [ref=e737]:
+              - link "Warehouse Stationery" [ref=e738] [cursor=pointer]:
+                - /url: https://www.warehousestationery.co.nz/?utm_source=www.thewarehouse.co.nz&utm_medium=footer&utm_campaign=homepage
+                - img "Warehouse Stationery" [ref=e739]
+            - listitem [ref=e740]:
+              - link "Noel Leeming" [ref=e741] [cursor=pointer]:
+                - /url: https://www.noelleeming.co.nz/?utm_source=www.thewarehouse.co.nz&utm_medium=footer&utm_campaign=homepage
+                - img "Noel Leeming" [ref=e742]
+      - generic [ref=e743]:
+        - heading "We accept" [level=6] [ref=e744]
+        - list [ref=e745]:
+          - listitem [ref=e746]:
+            - img "Visa" [ref=e747]
+          - listitem [ref=e748]:
+            - img "American Express" [ref=e749]
+          - listitem [ref=e750]:
+            - img "MasterCard" [ref=e751]
+          - listitem [ref=e752]:
+            - img "Q Card" [ref=e753]
+          - listitem [ref=e754]:
+            - img "Purple Visa" [ref=e755]
+          - listitem [ref=e756]:
+            - img "ZIP" [ref=e757]
+          - listitem [ref=e758]:
+            - img "Click to Pay" [ref=e759]
+          - listitem [ref=e760]:
+            - img "Afterpay" [ref=e761]
+      - paragraph [ref=e763]: © Copyright The Warehouse Limited 2026
+  - button "Hello, have a question? Let’s chat." [ref=e764] [cursor=pointer]:
+    - img [ref=e766]
+```
