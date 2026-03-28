@@ -35,13 +35,13 @@ jobs:
         continue-on-error: true
 
       # Once playwright finishes it will create a folder called 'blob-report' where it will put all the reports
-      - name: Upload blob report to GitHub Actions Artifacts
+      - name: Upload Allure results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: merged-reports-as-blob-${{ strategy.job-index }} # name of the file you want to have once its uploaded
-          path: blob-report # path where the reports are, from where to take the files.
-          retention-days: 90
+          name: allure-results-${{ matrix.shardIndex }}
+          path: allure-results/
+          retention-days: 1
 
   merge-reports-and-upload:
     # Merge reports after playwright tests, even if some shards have failed
@@ -67,20 +67,27 @@ jobs:
         run: npm ci
 
       # we now download the reports uploaded previously to merge them and create one single html report
-      - name: Download blob reports from GitHub Actions Artifacts
+      - name: Download Allure Results
         uses: actions/download-artifact@v4
         with:
-          name: merged-reports-as-blob-${{ strategy.job-index }} # name of the file stored as artifact (as uploaded at the previous job)
-          path: downloaded-merged-reports-as-blob # name of the folder where the download will be saved
+          path: allure-results/
+          pattern: allure-results-*
+          merge-multiple: true
 
-      # Playwright will generate a report and store it inside a folder called '/playwright-report'
-      - name: Merge the blobs into one single HTML Report
-        run: npx playwright merge-reports --reporter html ./downloaded-merged-reports-as-blob
+      - name: Test marketplace action
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
 
-      - name: Push the new files to github pages
-        # This will create a separate branch called gh-pages where it will store only reports. And from where it will push all future changes
-        # to github pages. Having a separate branch will keep the reports and changes commits separate to your main/master
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
