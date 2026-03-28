@@ -94,4 +94,4 @@ jobs:
           PUBLISH_DIR: allure-history
 
       - name: Write URL in summary
-        run: echo "### Test results (link available after 20 secs) - https://${{ github.repository_owner }}.github.io/PlaywrightJSKarthik/${{ steps.timestampid.outputs.timestamp }}/" >> $GITHUB_STEP_SUMMARY
+        run: echo "### Test results (link available after 20 secs) - https://${{ github.repository_owner }}.github.io/PlaywrightJSKarthik/" >> $GITHUB_STEP_SUMMARY
