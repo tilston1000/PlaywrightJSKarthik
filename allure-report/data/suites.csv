@@ -1,5 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","14536","To Navigate to Car Electronics page","webkit","2026-03-17","skipped","2026-03-17","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","6953","To Navigate to Lounge page","chromium","2026-03-17","passed","2026-03-17","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","7871","To Navigate to Car Electronics page","chromium","2026-03-17","passed","2026-03-17","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","27578","To Navigate to Lounge page","webkit","2026-03-17","passed","2026-03-17","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""

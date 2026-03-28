@@ -1,8 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","2273","Navigating to Lounge of Warehouse site-ARIA locatoes","chromium","Sun Mar 22 10:58:17 UTC 2026","passed","Sun Mar 22 10:58:19 UTC 2026","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","5748","To Navigate to Car Electronics page","webkit","Fri Mar 27 21:39:33 UTC 2026","skipped","Fri Mar 27 21:39:38 UTC 2026","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","8631","Navigating to Lounge of Warehouse site-ARIA locators","webkit","Fri Mar 27 21:39:39 UTC 2026","passed","Fri Mar 27 21:39:47 UTC 2026","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","10178","To Navigate to Lounge page","webkit","Fri Mar 27 21:39:22 UTC 2026","passed","Fri Mar 27 21:39:32 UTC 2026","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","3829","Navigating to Lounge of Warehouse site-ARIA locators","chromium","Fri Mar 27 21:39:17 UTC 2026","passed","Fri Mar 27 21:39:21 UTC 2026","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","4571","To Navigate to Lounge page","chromium","Fri Mar 27 21:39:07 UTC 2026","passed","Fri Mar 27 21:39:12 UTC 2026","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
-"","5039","To Navigate to Car Electronics page","chromium","Fri Mar 27 21:39:12 UTC 2026","passed","Fri Mar 27 21:39:17 UTC 2026","Test navigation Of Warehouse Website","warehousebdd.spec.ts","",""
