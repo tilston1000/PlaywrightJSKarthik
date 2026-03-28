@@ -58,14 +58,6 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install dependencies
-        run: npm ci
-
       # we now download the reports uploaded previously to merge them and create one single html report
       - name: Download Allure Results
         uses: actions/download-artifact@v4
