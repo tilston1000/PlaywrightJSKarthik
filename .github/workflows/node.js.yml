@@ -34,7 +34,6 @@ jobs:
         run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
         continue-on-error: true
 
-      # Once playwright finishes it will create a folder called 'blob-report' where it will put all the reports
       - name: Upload Allure results
         if: always()
         uses: actions/upload-artifact@v4
@@ -44,7 +43,6 @@ jobs:
           retention-days: 1
 
   merge-reports-and-upload:
-    # Merge reports after playwright tests, evens if some shards have failed
     if: always()
     needs: [playwright-tests]
     runs-on: ubuntu-latest
@@ -58,7 +56,6 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      # we now download the reports uploaded previously to merge them and create one single html report
       - name: Download Allure Results
         uses: actions/download-artifact@v4
         with:
